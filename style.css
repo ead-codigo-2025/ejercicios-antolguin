@@ -1,0 +1,85 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #fff5f8;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #c94f7c;
+}
+
+.bio {
+  max-width: 600px;
+  margin: auto;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #d67a9c;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+/* Links */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Imagen */
+.foto img {
+  max-width: 350px;  
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 3px solid #d67a9c;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+img {
+  border-radius: 10px; /* esquinas redondeadas */
+  margin: 10px; /* espacio entre imágenes */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* sombra */
+  transition: transform 0.3s ease; /* animación al pasar mouse */
+}
+
+img:hover {
+  transform: scale(1.1); /* efecto zoom al pasar el mouse */
+}
