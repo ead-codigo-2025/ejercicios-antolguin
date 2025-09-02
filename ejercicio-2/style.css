@@ -1,0 +1,87 @@
+/* Reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background: #fff;
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  background: #f6a400; /* amarillo */
+  color: #000;
+  padding: 0.7rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== Sección 1 ===== */
+.servicios {
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 5%;
+  align-items: flex-start;
+}
+
+.servicios-texto {
+  flex: 1;
+}
+
+.servicios-cards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.categoria {
+  font-size: 0.8rem;
+  color: #3a4a63;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Sección 2 ===== */
+.talleres {
+  display: flex;
+  margin-top: 3rem;
+  background: #f0f0f0;
+}
+
+.talleres-texto {
+  flex: 1;
+  background: #1f3554; /* azul */
+  color: #fff;
+  padding: 2rem;
+}
+
+.talleres-texto .btn {
+  background: #f6a400;
+  color: #000;
+}
+
+.talleres-img {
+  flex: 1;
+}
+
+.talleres-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
